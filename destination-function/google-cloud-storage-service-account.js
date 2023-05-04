@@ -1,5 +1,7 @@
 //authentication from service account, user can create custom roles that include storage.objects.create & storage.objects.delete
 //create setting in Segment for serviceAccountFile, bucketName
+//reference to GCS Client library here: https://cloud.google.com/storage/docs/reference/libraries#client-libraries-usage-nodejs
+
   const saKeyJson = JSON.parse(settings.serviceAccountFile);
   const PROJECT_ID = settings.projectId;
 
